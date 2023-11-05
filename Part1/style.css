@@ -1,0 +1,35 @@
+.block {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    font-family: "Press Start 2P";
+}
+
+.block-row {
+    flex-direction: row;
+}
+
+.block-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.label {
+    margin-bottom: 0.5rem;
+}
+
+input[type=checkbox]
+{
+  -ms-transform: scale(2);
+  -moz-transform: scale(2);
+  -webkit-transform: scale(2);
+  -o-transform: scale(2);
+  transform: scale(2);
+  margin-left: 1.5rem;
+}
+
+textarea {
+    resize: vertical;
+    width: 22rem;
+    height: 10rem;
+}
