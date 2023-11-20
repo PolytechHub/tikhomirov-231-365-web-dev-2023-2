@@ -18,7 +18,7 @@
         </div>
     </header>
     <main>
-        <form method="post" action="https://httpbin.org/post">
+        <form method="post" action="https://httpbin.org/post" enctype="multipart/form-data">
             <div class="block">
                 <div class="label"><label for="fio">ФИО</label></div>
                 <div class="element">
@@ -67,7 +67,7 @@
             <div class="block">
                 <div class="label"><label for="attachment">Вложение</label></div>
                 <div class="element">
-                    <input type="file" id="attachment" name="attachment">
+                    <input type="file" id="attachment" name="attachment" multiple>
                 </div>
             </div>
 
